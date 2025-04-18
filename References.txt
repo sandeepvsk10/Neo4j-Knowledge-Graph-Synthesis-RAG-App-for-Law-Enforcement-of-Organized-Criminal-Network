@@ -1,0 +1,5 @@
+For Better Graph Structure Refer the below - https://github.com/erichoang/criminal-network-visualization
+
+POLE Model for Knowledge Graphs - https://neo4j.com/blog/government/graph-technology-pole-position-law-enforcement/
+
+
