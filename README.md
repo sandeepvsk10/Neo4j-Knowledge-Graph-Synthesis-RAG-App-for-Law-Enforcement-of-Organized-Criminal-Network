@@ -1,7 +1,6 @@
 # Neo4j-Knowledge-Graph-Synthesis-RAG-App-for-Law-Enforcement-of-Organized-Criminal-Network
-Making one for the law Enforcement &amp; Government
+!!!Making one for the law Enforcement &amp; Government
 
-# LLM - RAG - Neo4j Knowledge Graph for Law Enforcement
 
 This solution implements a sophisticated graph system for analyzing and processing law enforcement transcripts using Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and Neo4j Knowledge Graphs. The system is designed to help law enforcement agencies better understand and analyze criminal networks and organizations.
 
@@ -24,15 +23,6 @@ C --> D[Graph RAG]
 D --> E[Intelligence Output] 
 ```
 
-
-## Features
-
-- **Transcript Processing**: Load and process law enforcement transcripts
-- **Summary Generation**: Generate comprehensive summaries of transcripts using LLMs
-- **Knowledge Graph**: Build and maintain a Neo4j knowledge graph of entities and relationships
-- **RAG System**: Implement a retrieval-augmented generation system for answering queries
-- **Query Interface**: Natural language query processing and response generation
-
 ## Project Structure
 
 ```
@@ -52,10 +42,10 @@ D --> E[Intelligence Output]
 
 The project uses several key technologies and libraries:
 - Python 3.x
-- Neo4j Database
+- Neo4j Desktop
 - LangChain
 - OpenAI API
-- Google AI Generative Language
+- Gemini API
 - Various Python packages (see requirements.txt)
 
 ## Installation
@@ -76,11 +66,23 @@ The project uses several key technologies and libraries:
 ## Usage
 
 1. Ensure Neo4j database is running and accessible
-2. Run the main application:
+   
+   To run the knowledge graph locally using Neo4j with Bolt protocol, follow these steps:
+
+   1. Install Neo4j Desktop from https://neo4j.com/download
+
+   2. Create a new project and start a database
+
+   3. Set the Bolt connection credentials:
+      1. URL: bolt://localhost:7687
+      2. Username: neo4j
+      3. Password: your-password (update in config.py)
+   
+3. Run the main application:
    ```bash
    python app.py
    ```
-3. Enter your query when prompted
+4. Enter your query when prompted
 
 ## Configuration
 
@@ -89,16 +91,13 @@ Update the following in `config.py`:
 - API keys for LLM services
 - Other configuration parameters
 
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
-
-[Specify your license here]
-
 ## Acknowledgments
 
-- Law enforcement agencies for providing transcripts
+- Call transcripts generated from LLM - Google Studio
 - Open source community for various tools and libraries
 - Research papers and resources referenced in References.txt 
