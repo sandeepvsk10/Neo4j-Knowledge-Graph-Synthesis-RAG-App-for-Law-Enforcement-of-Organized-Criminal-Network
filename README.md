@@ -1,6 +1,10 @@
 # Neo4j-Knowledge-Graph-Synthesis-RAG-App-for-Law-Enforcement-of-Organized-Criminal-Network
 !!!Making one for the law Enforcement &amp; Government
 
+(Following Works in progress)
+- Deployment
+- Modules in python
+
 
 This solution implements a sophisticated graph system for analyzing and processing law enforcement transcripts using Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and Neo4j Knowledge Graphs. The system is designed to help law enforcement agencies better understand and analyze criminal networks and organizations.
 
